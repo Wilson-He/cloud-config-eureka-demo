@@ -1,0 +1,1 @@
+config-client不能含spring-cloud-config-server，否则将报Could not resolve placeholder异常
