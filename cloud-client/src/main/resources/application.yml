@@ -2,4 +2,4 @@ server:
   port: 20002
 spring:
   application:
-    name: spring-cloud-config-client
+    name: cloud-config-client

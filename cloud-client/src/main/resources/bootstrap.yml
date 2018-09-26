@@ -3,9 +3,10 @@ spring:
     config:
       name: test
       discovery:
-        service-id: CLOUD-SERVER
+        service-id: cloud-server
         enabled: true
       profile: dev
+      label: master
 eureka:
   client:
     service-url:
