@@ -14,7 +14,7 @@ spring:
       server:
         git:
           uri: https://github.com/Wilson-He/notes     # 配置git仓库的地址
-#          http://localhost:20000/test-dev.properties
+#          http://localhost:20001/test-dev.properties
           search-paths: test                             # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: Wilson-He                                        # git仓库的账号
           password:                                     # git仓库的密码
