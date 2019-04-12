@@ -1,13 +1,6 @@
-server:
-  port: 20002
 spring:
   application:
-    name: cloud-config-client
-  cloud:
-    bus:
-      trace:
-        enabled: true
-      enabled: true
+    name: cloud-client-user
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
@@ -26,3 +19,5 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  port: 22222

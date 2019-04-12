@@ -1,11 +1,21 @@
 spring:
   application:
     name: cloud-eureka
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:20000/eureka/
-    fetch-registry: false
-    register-with-eureka: false
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8999"
+#  security:
+#    user:
+#      name: wilson
+#      password: 111111
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 server:
-  port: 20000
+  port: 8761
